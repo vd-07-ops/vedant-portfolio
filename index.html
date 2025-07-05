@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vedant Dave | Data Scientist</title>
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- AOS (Animate On Scroll) -->
+  <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+  <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+
+  <!-- Custom font -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+      scroll-behavior: smooth;
+    }
+  </style>
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+  <!-- Header -->
+  <header class="bg-white shadow p-6 sticky top-0 z-10">
+    <div class="max-w-5xl mx-auto flex flex-col md:flex-row justify-between items-center">
+      <h1 class="text-3xl font-extrabold text-blue-600 animate-pulse">Vedant Dave</h1>
+      <div class="flex space-x-4 mt-4 md:mt-0 text-sm text-blue-500">
+        <a href="mailto:202418014@dau.ac.in" class="hover:underline">Email</a>
+        <a href="https://linkedin.com/in/VedantDave" target="_blank" class="hover:underline">LinkedIn</a>
+        <a href="https://github.com/vd-07-ops" target="_blank" class="hover:underline">GitHub</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- About -->
+  <section class="p-8 max-w-4xl mx-auto" data-aos="fade-up">
+    <h2 class="text-2xl font-semibold mb-4">About Me</h2>
+    <p class="text-lg leading-relaxed">I'm a graduate student in Data Science at Dhirubhai Ambani University. I work on evaluating personalized summarization using LLMs and build GenAI-powered products like <strong>JEE Gurukul</strong>, an AI-first JEE platform.</p>
+  </section>
+
+  <!-- Education -->
+  <section class="bg-gray-100 p-8" data-aos="fade-left">
+    <div class="max-w-4xl mx-auto">
+      <h2 class="text-2xl font-semibold mb-4">Education</h2>
+      <ul class="space-y-2">
+        <li><strong>MSc. Data Science</strong> – Dhirubhai Ambani University (2024–Present)</li>
+        <li><strong>BSc. Computer Science</strong> – Gujarat University (2021–2024)</li>
+        <li><strong>12th (GHSEB)</strong> – H.B.Kapadia (72.7%)</li>
+        <li><strong>10th (GSEB)</strong> – H.B.Kapadia (89.6%)</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Experience -->
+  <section class="p-8 max-w-4xl mx-auto" data-aos="fade-right">
+    <h2 class="text-2xl font-semibold mb-4">Experience</h2>
+    <div>
+      <h3 class="text-lg font-bold">Research Assistant @ KDM Lab</h3>
+      <p class="text-sm italic mb-2">May 2025 – Present</p>
+      <ul class="list-disc ml-6 space-y-1">
+        <li>Research on evaluating summarization using fine-tuned LLMs and PENS metrics.</li>
+        <li>Built automated evaluation pipelines to improve research efficiency.</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section class="bg-gray-100 p-8" data-aos="zoom-in-up">
+    <div class="max-w-4xl mx-auto">
+      <h2 class="text-2xl font-semibold mb-4">Projects</h2>
+
+      <div class="mb-6">
+        <h3 class="font-bold text-lg">TAPS – Time-aware Personalized Summarization</h3>
+        <ul class="list-disc ml-6 space-y-1">
+          <li>Used PENS dataset to evaluate how summaries align with evolving user preferences.</li>
+          <li>Designed alignment metrics for factual and personalized generation.</li>
+        </ul>
+      </div>
+
+      <div>
+        <h3 class="font-bold text-lg">JEE Gurukul – GenAI JEE Platform</h3>
+        <ul class="list-disc ml-6 space-y-1">
+          <li>Used Gemini API + GCP + FAISS + Flask to generate adaptive NCERT-aligned questions.</li>
+          <li>Enabled semantic search, user login, and quiz feedback.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section class="p-8 max-w-4xl mx-auto" data-aos="fade-up">
+    <h2 class="text-2xl font-semibold mb-4">Skills</h2>
+    <p><strong>Languages:</strong> Python, SQL</p>
+    <p><strong>Frameworks:</strong> PyTorch, HuggingFace, JAX, LangChain, Flask</p>
+    <p><strong>Cloud:</strong> GCP, PostgreSQL, MySQL, Render</p>
+    <p><strong>Tools:</strong> Git, Docker, VS Code, Linux Shell</p>
+    <p><strong>Soft Skills:</strong> Leadership, Collaboration, Time Management</p>
+  </section>
+
+  <!-- Achievements -->
+  <section class="bg-gray-100 p-8" data-aos="fade-up">
+    <div class="max-w-4xl mx-auto">
+      <h2 class="text-2xl font-semibold mb-4">Achievements</h2>
+      <ul class="list-disc ml-6 space-y-1">
+        <li>Selected as a semi-finalist at 100x Engineers Buildathon 2.0 for building <strong>JEE Gurukul</strong>.</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="text-center text-sm py-4 bg-white shadow-inner mt-10">
+    © 2025 Vedant Dave. Hosted on GitHub Pages.
+  </footer>
+
+  <!-- Init AOS -->
+  <script>
+    AOS.init({
+      duration: 1000,
+      once: true
+    });
+  </script>
+
+</body>
+</html>
